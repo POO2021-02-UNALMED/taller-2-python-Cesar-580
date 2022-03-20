@@ -11,14 +11,13 @@ class Asiento:
     
 class Auto:
     cantidadCreados = int
-    def __init__(self,modelo,precio,asientos,marca,motor,registro,cantidadCreados):
+    def __init__(self,modelo,precio,asientos,marca,motor,registro):
         self.modelo = modelo
         self.precio = precio
         self.asientos = list(asientos)
         self.marca = marca
         self.motor = motor
         self.registro = registro
-        self.cantidadCreados = cantidadCreados
 
     def cantidadAsientos(self):
         cont = 0
