@@ -24,7 +24,7 @@ class Auto:
         if self.asientos != None:
             for asientos_list in self.asientos:
                 if asientos_list != None:
-                    cont += cont
+                    cont += 1
         return cont
 
     def verificarIntegridad(self):
